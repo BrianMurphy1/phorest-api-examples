@@ -17,7 +17,8 @@ body('{
   "expiryDate": "2017-07-11T08:27:23.993Z",
   "id": "ab-123",
   "issueDate": "2017-07-11T08:27:23.993Z",
-  "originalBalance": 123.12
+  "originalBalance": 123.12,
+  "serialNumber":"42332423423"
 }')->send();
 
 echo $response->body->expiryDate;
