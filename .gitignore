@@ -2,4 +2,5 @@
 /Dockerfile
 /voucher-api-example.ipr
 *.iml
+*.idea
 
