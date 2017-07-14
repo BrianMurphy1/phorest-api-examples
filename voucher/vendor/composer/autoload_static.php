@@ -4,14 +4,14 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit954970c3f24ea555e86af026d35d7174
+class ComposerStaticInita2ad7085ed6563e2c96b8bc24f96bf90
 {
     public static $prefixesPsr0 = array (
         'H' => 
         array (
             'Httpful' => 
             array (
-                0 => __DIR__ . '/..',
+                0 => __DIR__ . '/..' . '/nategood/httpful/src',
             ),
         ),
     );
@@ -19,7 +19,7 @@ class ComposerStaticInit954970c3f24ea555e86af026d35d7174
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixesPsr0 = ComposerStaticInit954970c3f24ea555e86af026d35d7174::$prefixesPsr0;
+            $loader->prefixesPsr0 = ComposerStaticInita2ad7085ed6563e2c96b8bc24f96bf90::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
